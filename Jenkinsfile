@@ -7,7 +7,7 @@ pipeline {
                 echo 'take code from github'
             }
         }
-        stage('Build_new') {
+        stage('Build') {
             steps {
                 echo 'Build my project'
             }
