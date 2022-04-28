@@ -6,7 +6,7 @@
 	<echo>The Ant java project executed successfully</echo>	
 	</target>
 	
-	<target name="clean" description="It will clean up my class directory">
+	<target name="clean-dir" description="It will clean up my class directory">
 	<delete dir="build/class"></delete>	
 	 <delete dir="dist"></delete>
 	</target>
