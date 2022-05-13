@@ -2,7 +2,7 @@
 
 <project name="ant-java-project" basedir="." default="complete">
 
-	<target name="init" depends="clean,create,compile,package" description="This will print my project status">
+	<target name="complete" depends="clean,create,compile,package" description="This will print my project status">
 	<echo>The Ant java project executed successfully</echo>	
 	</target>
 	
